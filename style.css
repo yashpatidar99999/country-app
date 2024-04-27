@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    padding: 1rem 0;
+}
+
+.country_data_container{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 0.5rem 1rem; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;    
+}
